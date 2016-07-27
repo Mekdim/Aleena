@@ -383,5 +383,5 @@ def overpass_locate():
 def page_not_found():
     return "ok"
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=False)
 """print response.form"""
